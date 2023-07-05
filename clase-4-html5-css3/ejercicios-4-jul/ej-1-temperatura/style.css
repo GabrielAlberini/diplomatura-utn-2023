@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+ul {
+  width: 80px;
+  margin: 20px auto;
+  list-style: none;
+}
+
+ul li {
+  padding: 5px;   
+}
+
+.temp-1 {
+  background-color: #ff3400;
+  color: white;
+}
+
+.temp-2 {
+  background-color: #fd9a35;
+}
+
+.temp-3 {
+  background-color: #ffcb00;
+}
+
+.temp-4 {
+  background-color: #ffff68;
+}
+
+.temp-5 {
+  background-color: #fdffe7;
+}
+
+.temp-6 {
+  background-color: #d1f7fc ;
+}
+
+.temp-7 {
+  background-color: #a0e8ff;
+}
+
+.temp-8 {
+  background-color: #01ccff;
+}
+
+.temp-9 {
+  background-color: #009aff;
+}
+
+.temp-10 {
+  background-color: #0365ff;
+  color: white;
+}
+
+
