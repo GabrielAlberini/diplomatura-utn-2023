@@ -1,0 +1,61 @@
+/*Selector universal*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:monospace;
+}
+
+/*Selector multiple*/
+header, main, footer {
+  padding: 20px;
+}
+
+header {
+  background-color: burlywood;
+}
+
+main {
+  background-color: lightblue;
+}
+
+/*Selector especifico*/
+main h2 {
+  color:red;
+}
+
+footer {
+  background-color: thistle;
+}
+
+/*El ancho de los elementos html heredan el 100% del ancho disponible del elemento padre*/
+
+img {
+  width: 100px;
+  padding: 10px;
+  background-color:burlywood;
+  margin: auto;
+}
+
+p {
+  background-color: brown;
+}
+
+
+/*inline - inline-block - block*/
+
+/* <p> -> disploy block -> elemento en bloque */
+/* <span> <img> -> disploy inline -> ocupa solo el espacio del contenido */
+
+.cont-img {
+  width: 100px;
+  background-color: chocolate;
+  margin: auto;
+}
+
+span {
+  width: 300px;
+  display: inline-block;
+  color: black;
+  background-color: yellowgreen;
+}

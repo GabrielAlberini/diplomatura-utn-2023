@@ -1,0 +1,60 @@
+
+/*Comentario desde CSS*/
+/*Selector | propiedad | valor*/
+/*Selector: nombre de etiqueta, una clase, un identificador único*/
+
+/*Selector único/universal*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: cadetblue;
+}
+/* 
+header h2 {
+  font-size: 30px;
+} */
+
+.mi-subtitulo {
+  font-size: 60px;
+}
+
+#subtitulo-capo {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+footer {
+  background-color: chocolate;
+}
+
+/*----------------------------------------------------------------------------------*/
+
+/*padding - margin*/
+
+h1 {
+  background-color: rgb(184, 130, 29);
+  color: black;
+  margin: 30px;
+  padding: 30px;
+}
+
+/* width - height */
+/* w -> ancha */
+/* h -> alta */
+
+/*TODOS LOS ELEMENTOS HTML HEREDAN EL 100% DEL ANCHO TOTAL DISPONIBLE DEL CONTENEDOR PADRE*/
+
+h2 {
+  width: 50%;
+  background-color: cornflowerblue;
+  padding: 20px;
+  /*top - right - bottom - left*/
+  /* margin: 20px 30px 10px 40px; */
+  /*top/bottom - right/left*/
+  margin: 20px auto;
+  text-align: center;
+  font-family: 'Belanosima', sans-serif;
+}
