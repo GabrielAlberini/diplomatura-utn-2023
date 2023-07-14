@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cont-section {
+  display: flex; /*Flex solo para contenedores*/
+  /*Eje X*/
+  justify-content: center;
+  /*Eje Y*/
+  align-items: center;
+  flex-direction: row;
+  margin: auto;
+  background-color: wheat;
+  min-height: 100vh; /*viewport height*/
+}
+
+div {
+  background-color: yellowgreen;
+  width: 200px;
+  padding: 30px;
+  margin: 10px;
+  text-align: center;
+}

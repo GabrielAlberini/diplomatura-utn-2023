@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.f1 {
+  background-color: rgb(217, 217, 15);
+}
+.f2 {
+  background-color: rgb(216, 58, 58);
+}
+.f3 {
+  background-color: rgb(238, 187, 78);
+}
+.f4 {
+  background-color: rgb(107, 21, 107);
+}
+.f5 {
+  background-color: rgb(167, 209, 81);
+}
+.f6 {
+  background-color: orange;
+}
+.f7 {
+  background-color: rgb(247, 247, 0);
+}
+.f8 {
+  background-color: rgb(249, 44, 44);
+}
+.f9 {
+  background-color: rgb(107, 209, 107);
+}
+.f10 {
+  background-color: rgb(194, 214, 21);
+}

@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+  font-size: 120px;
+  font-weight: 800;
+}
+
+p {
+  font-size: 48px;
+}
+
+.s-title {
+  color: yellowgreen;
+}
+
+.s-1 {
+  color: violet;
+}
+
+.s-2 {
+  color: tomato;
+}
+
+.s-3 {
+  color: teal;
+}

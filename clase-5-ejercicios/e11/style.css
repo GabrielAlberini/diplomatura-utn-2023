@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2, h3 {
+  font-size: 40px;
+}
+
+h3 a {
+  color: yellowgreen;
+  text-decoration: none;
+}
+
+.p-time {
+  font-size: 14px;
+  color: rgb(151, 151, 151);
+}
+
+span {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  background-color: rgb(209, 209, 209);
+}

@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.s-1 {
+  font-size: 30px;
+}
+
+.s-2, .s-3, .s-9, .s-10 {
+  font-size: 50px;
+}
+
+.s-4, .s-7, .s-8 {
+  font-size: 100px;
+}
+
+.s-5 {
+  font-size: 140px;
+}
+
+.s-6 {
+  font-size: 200px;
+}
