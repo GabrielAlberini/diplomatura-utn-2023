@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header, main, footer {
+  padding: 20px;
+}
+
+/* header styles */
+
+header {
+  background-color: yellowgreen;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header button {
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 5px 10px;
+}
+
+header button:hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+/* main styles */
+
+main {
+  background-color: thistle;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-content: start;
+  gap: 10px;
+}
+
+main div {
+  width: 200px;
+  padding: 20px;
+  text-align: center;
+  background-color: yellowgreen;
+}
+
+
+/* footer styles */
+
+footer {
+  background-color: rgb(174, 154, 195);
+}
+
+footer nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  list-style: none;
+}
+
+footer nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+/* medias queries (puntos de quiebre === break points) tablet */
+
+@media (max-width: 880px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+  header {
+    background-color: red;
+  }
+  footer {
+    background-color: yellow;
+    color: brown;
+  }
+  main div {
+    background-color: tomato;
+    color: white;
+  }
+}
+
+/* medias queries celular */
+
+@media (max-width: 480px) {
+  main {
+    grid-template-columns: 1fr;
+  }
+}
