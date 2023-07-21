@@ -1,0 +1,13 @@
+body {
+  background-color: black;
+}
+
+section {
+  text-align: center;
+  padding: 20px;
+}
+
+section a {
+  color: white;
+  text-align: center;
+}
