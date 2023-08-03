@@ -106,8 +106,6 @@
 //   console.log("Puedes pasar")
 // }
 
-
-
 // SOLUCION 2
 
 // if(tieneAutorizacion  === "si") {
