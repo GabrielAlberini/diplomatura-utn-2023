@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piedra, papel o tijera</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <h1>Piedra, papel y tijera</h1>
+    <section class="cont-app">
+      <section id="cont-modal" class="cont-modal">
+        <div class="cont-resultado">
+          <button id="boton-close-modal" type="button">Cerrar</button>
+          <h2 id="jugadas"></h2>
+          <p id="resultado"></p>
+        </div>
+      </section>
+      <form id="form">
+        <div>
+          <label for="jugada">Ingrese un valor:</label>
+          <input id="jugada" name="jugada" type="text" />
+        </div>
+        <button id="boton-form" type="submit" disabled>¡Jugar!</button>
+      </form>
+    </section>
+    <script src="app/main.js"></script>
+  </body>
+</html>
